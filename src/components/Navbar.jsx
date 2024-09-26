@@ -38,11 +38,10 @@ const Navbar = () => {
         {  link: "Product", path: "product" },
         {  link: "Testimonial", path: "testimonial"},
         {  link: "FAQ", path: "faq" } 
-      
     ];
     
     return ( 
-      <header className="w-full bg-white  md:bg-transparent fixed top-0 left-0 right-0 ">
+      <header className="w-full bg-white  md:bg-transparent fixed top-0 left-0 right-0 mb-16 lg:mb-0 ">
          <nav className={`py-4 lg:px-14 px-4 ${isSticky ? "sticky top-0 left-0 right-0 border-b bg-white duration-300 " : ""}`}>
             <div className= "flex justify-between items-center text-base gap-6 ">
                 <a href="/" >
@@ -91,7 +90,7 @@ const Navbar = () => {
             </div>
 
             {/* Menu mobile */}
-            <div className={`md:hidden space-x-4 px-4 mt-16 py-7 bg-brandPrimary ${isMenuOpen? 
+            <div className={`md:hidden space-x-4 px-4 mt-14 py-7 bg-brandPrimary ${isMenuOpen? 
                 "block fixed top-0 right-0 left-0 " : "hidden"}`}>
                 <ul className="space-y-6">
                     {navItems.map((item, index) => (
