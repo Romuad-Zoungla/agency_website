@@ -2,6 +2,11 @@ import About from "./components/About";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
 import Services from "./components/Services";
+import Blog from "./components/Blog";
+import Products from "./components/Products";
+import Newletter from "./components/newletters";
+import MyFooter from "./components/footer";
+
 
 const App = () => { 
   return ( 
@@ -19,6 +24,10 @@ const App = () => {
         <HeroSection/>
         <Services/>
         <About/>
+        <Products/>
+        <Blog/>
+        <Newletter/>
+        <MyFooter/>
       </div>
     </div>
     </div>

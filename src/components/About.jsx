@@ -1,4 +1,4 @@
-import aboutImg from "../assets/rafiki.png"
+import aboutImg from "../assets/rafiki.png";
 const About = () => {
     return (
         <>
@@ -26,7 +26,7 @@ const About = () => {
                 <p className="text-sm text-neutralGray mb-4 md:mb-8">We reached here with our hard work and dedication</p>
             </div>
 
-            <div className="md:w-1/2 mx-auto flex sm:flex-row flex-col sm:items-center justify-around gap-12">
+            <div className="md:w-1/2 mx-auto flex flex-wrap sm:items-center justify-around gap-8 md:gap-12">
                 <div className="space-y-8"> 
                      <div className=" flex items-center gap-4 ">
                         <img src="/src/assets/Icon4.png" alt="" />

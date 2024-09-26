@@ -35,7 +35,7 @@ const Services = () => {
             <h2 className="text-4xl text-neutralDgray font-semibold mb-2">Our clients</h2>
             <p className="text-lg text-neutralGray mb-2">We have been working with some Fortune 500+ clients</p>
           
-          <div className="py-6 md:py-12 flex flex-wrap space-x-4 justify-center md:space-x-0 md:justify-between items-center">
+          <div className="py-6 md:py-12 flex flex-wrap gap-6 justify-center md:gap-12 items-center">
             <img src={part1} alt="" />
             <img src={part2} alt="" />
             <img src={part6} alt="" /> 
